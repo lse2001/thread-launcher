@@ -1,15 +1,9 @@
 /*
- * Name: YOUR NAME HERE
- * Course: CECS 326
- * Assignment: Programming Assignment 2 - The Thread Launcher
+ * Lucas Seitz
+ * CECS 326 - Programming Assignment 2
  *
- * Description:
- *   Creates thread_count POSIX worker threads (1-100). Each worker gets a
- *   unique ID from 1 to thread_count, prints a start message, computes the
- *   square of its ID, and stores the result in its own slot. The main thread
- *   joins every worker, then prints all results in thread-ID order.
- *
- * Usage: ./thread_launcher <thread_count>
+ *   Creates thread_count worker threads (1-100). Each squares its ID and
+ *   stores the result; main joins them and prints results in ID order.
  */
 
 #define _POSIX_C_SOURCE 200809L
